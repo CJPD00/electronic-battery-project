@@ -1,0 +1,53 @@
+
+body{
+    background-color: rgb(29, 27, 27);
+    font-family: fantasy;
+}
+
+#drum-machine{
+    max-width: 600px;
+    background-color: rgb(177, 177, 207);
+    margin: 30vh auto;
+    border: 6px solid rgb(62, 62, 92) ;
+}
+
+.pad-container{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.pad-container button{
+    display: inline-block;
+    width: 90px;
+    margin: 5px;
+    height: 50px;
+    border-radius: 7%;
+    background-color: rgb(99, 98, 98);
+    box-shadow: rgb(54, 54, 54) 3px 3px 3px;
+}
+
+button:active{
+    opacity: 80%;
+}
+
+#display{
+    padding: .5rem;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(99, 98, 98);
+}
+
+.header{
+    text-align: center;
+    padding: 1rem;
+
+    .i-h{
+        margin-right: .5rem;
+    }
+
+}
+
+.control{
+    padding: 1rem;
+}
