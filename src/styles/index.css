@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(29, 27, 27);
+  background-image: url("/public/drum-background2.jpg");
+  background-size: cover;
+  background-position: center;
   font-family: fantasy;
 }
 
